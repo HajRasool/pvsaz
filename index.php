@@ -1,6 +1,6 @@
 <?php
 
-define('API_KEY','204374776:AAGHFw2g4x2VmTOTPPdX2Wfmext7KI803uc');
+define('API_KEY','370254025:AAHc25X7IBr9yLnJ-OVWityfSZDl1tdaW8o');
 //----######------
 function makereq($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -54,7 +54,7 @@ $username = $update->message->from->username;
 $textmessage = isset($update->message->text)?$update->message->text:'';
 $txtmsg = $update->message->text;
 $reply = $update->message->reply_to_message->forward_from->id;
-$admin = 195651268;
+$admin = 326824638;
 $cht = file_get_contents("cht");
 $dat = file_get_contents("http://api.codesupport.ir/td/?td=date");
 $tm = file_get_contents("http://api.codesupport.ir/td/?td=time");
